@@ -28,10 +28,10 @@ Pull the repo:
 			rasa run -p 5056
 		
 Install postman: to check bot status and response
-		Post method use the url : localhost/webhook/001
-		In the body raw data paste below block:
-			{
-				"sender": "postman",
-				"message": "hi"
-			}
+	Post method use the url : localhost/webhook/001
+	In the body raw data paste below block:
+		{
+			"sender": "postman",
+			"message": "hi"
+		}
 	
